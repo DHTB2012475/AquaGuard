@@ -81,7 +81,7 @@ document
     // Check if the credentials are correct
     if (username === "HuuTran" && password === "aqua123") {
       // Redirect to loginadmin.html if correct
-      window.location.href = "/Aqua/adminclient.html";
+      window.location.href = "Aqua/adminclient.html";
     } else {
       // Show an alert if the credentials are incorrect
       alert("Tên đăng nhập hoặc mật khẩu không đúng. Vui lòng thử lại.");
