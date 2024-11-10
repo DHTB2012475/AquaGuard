@@ -200,22 +200,3 @@
 })(jQuery);
 
 // Js of admin
-document
-  .querySelector(".login100-form")
-  .addEventListener("submit", function (event) {
-    // Prevent the form from submitting the usual way
-    event.preventDefault();
-
-    // Get the username and password values
-    const username = document.querySelector("input[name='email']").value;
-    const password = document.querySelector("input[name='pass']").value;
-
-    // Check if the credentials are correct
-    if (username === "HuuTran" && password === "aqua123") {
-      // Redirect to loginadmin.html if correct
-      window.location.href = "Aqua/adminclient.html";
-    } else {
-      // Show an alert if the credentials are incorrect
-      alert("Tên đăng nhập hoặc mật khẩu không đúng. Vui lòng thử lại.");
-    }
-  });
