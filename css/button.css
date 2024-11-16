@@ -1,0 +1,26 @@
+.button-container {
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+}
+
+.color-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px; /* Bo góc nhẹ */
+    cursor: pointer;
+    transition: all 0.3s ease; /* Hiệu ứng chuyển đổi mượt mà */
+}
+
+/* Default colors for buttons */
+#button1 { background-color: red; color: white; }
+#button2 { background-color: blue; color: white; }
+#button3 { background-color: green; color: white; }
+#button4 { background-color: orange; color: white; }
+
+/* Active state: Change to completely black */
+.color-button.active {
+    background-color: black; /* Nền màu đen */
+    color: black; /* Chữ cũng màu đen */
+    border: 1px solid black; /* Đảm bảo không có viền */
+}
